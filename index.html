@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvril Valova Fransen</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #0d0d0d;
+            color: #f5f5f5;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 0;
+        }
+
+        nav h1 {
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff7a00;
+        }
+
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h2 {
+            font-size: 72px;
+            line-height: 0.95;
+            max-width: 800px;
+            margin-bottom: 30px;
+        }
+
+        .orange {
+            color: #ff7a00;
+        }
+
+        .hero p {
+            max-width: 600px;
+            color: #b3b3b3;
+            font-size: 18px;
+        }
+
+        .button {
+            margin-top: 40px;
+            display: inline-block;
+            padding: 14px 28px;
+            border: 1px solid #ff7a00;
+            color: #ff7a00;
+            text-decoration: none;
+            transition: 0.3s;
+            width: fit-content;
+        }
+
+        .button:hover {
+            background-color: #ff7a00;
+            color: black;
+        }
+
+        .section-title {
+            font-size: 14px;
+            letter-spacing: 3px;
+            color: #ff7a00;
+            margin-bottom: 40px;
+        }
+
+        .projects {
+            padding: 100px 0;
+        }
+
+        .project-card {
+            border-top: 1px solid #262626;
+            padding: 40px 0;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateX(10px);
+        }
+
+        .project-card h3 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            max-width: 700px;
+            color: #b3b3b3;
+        }
+
+        .tag {
+            display: inline-block;
+            margin-top: 15px;
+            margin-right: 10px;
+            padding: 6px 12px;
+            border: 1px solid #333;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .about {
+            padding: 100px 0;
+            border-top: 1px solid #262626;
+        }
+
+        .about p {
+            max-width: 700px;
+            font-size: 20px;
+            color: #d1d1d1;
+        }
+
+        footer {
+            padding: 60px 0;
+            border-top: 1px solid #262626;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media(max-width: 768px) {
+
+            .hero h2 {
+                font-size: 48px;
+            }
+
+            .project-card h3 {
+                font-size: 28px;
+            }
+
+            .about p {
+                font-size: 18px;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav div {
+                margin-top: 20px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav>
+            <h1>ALVRIL</h1>
+
+            <div>
+                <a href="#">Projects</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <h2>
+                Visual Designer<br>
+                exploring <span class="orange">storytelling</span>,
+                UI systems, and speculative media.
+            </h2>
+
+            <p>
+                Visual Communication Design student at Tongji University
+                creating digital, editorial, and experimental experiences
+                across cultures and mediums.
+            </p>
+
+            <a class="button" href="#projects">
+                VIEW PORTFOLIO
+            </a>
+        </section>
+
+        <section class="projects" id="projects">
+
+            <p class="section-title">SELECTED PROJECTS</p>
+
+            <div class="project-card">
+
+    <a href="numi.html" style="text-decoration:none; color:white;">
+
+        <h3>NUMI</h3>
+
+        <p>
+            Mental health platform translating psychological exercises into interactive daily rituals.
+        </p>
+
+        <span class="tag">UI/UX</span>
+        <span class="tag">Figma</span>
+        <span class="tag">Mental Health</span>
+
+    </a>
+
+</div>
+
+           <div class="project-card">
+
+    <a href="mediaweaver.html" style="text-decoration:none; color:white;">
+
+        <h3>MEDIA WEAVER</h3>
+
+        <p>
+            Speculative editorial publication exploring how entertainment media shapes perception and reality.
+        </p>
+
+        <span class="tag">Editorial</span>
+        <span class="tag">Speculative Design</span>
+        <span class="tag">Print</span>
+
+    </a>
+
+</div>
+
+           <div class="project-card">
+
+    <a href="lingling.html" style="text-decoration:none; color:white;">
+
+        <h3>LING LING</h3>
+
+        <p>
+            Contemporary cultural IP inspired by Lingnan heritage and traditional symbolism.
+        </p>
+
+        <span class="tag">Branding</span>
+        <span class="tag">Animation</span>
+        <span class="tag">Cultural Design</span>
+
+    </a>
+
+</div>
+
+        </section>
+
+        <section class="about">
+
+            <p class="section-title">ABOUT</p>
+
+            <p>
+                I am interested in the intersection of media,
+                narrative systems, interface design, and visual culture.
+                My work often explores how design shapes perception,
+                emotion, and interaction in both digital and physical spaces.
+            </p>
+
+        </section>
+
+        <footer>
+            © 2026 Alvril Valova Fransen
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
