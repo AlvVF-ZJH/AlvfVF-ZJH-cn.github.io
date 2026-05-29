@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
@@ -11,9 +11,14 @@
         body{
             background:#0d0d0d;
             color:white;
-            font-family:Arial;
+            font-family:
+            "PingFang SC",
+            "Hiragino Sans GB",
+            "Microsoft YaHei",
+            sans-serif;
+
             margin:0;
-            line-height:1.6;
+            line-height:1.9;
         }
 
         .container{
@@ -24,13 +29,15 @@
         }
 
         h1{
-            font-size:72px;
-            margin-bottom:10px;
+            font-size:64px;
+            margin-bottom:12px;
+            letter-spacing:1px;
         }
 
         .subtitle{
             color:#ff7a00;
             margin-bottom:60px;
+            line-height:1.8;
         }
 
         .hero-image{
@@ -40,14 +47,18 @@
         }
 
         h2{
-            margin-top:60px;
+            margin-top:70px;
             margin-bottom:20px;
             color:#ff7a00;
+            letter-spacing:2px;
+            font-size:14px;
         }
 
         p{
             color:#d1d1d1;
             max-width:800px;
+            font-size:17px;
+            line-height:2;
         }
 
         .image{
@@ -61,6 +72,12 @@
             text-decoration:none;
         }
 
+        video{
+            margin-top:40px;
+            width:100%;
+            border-radius:16px;
+        }
+
     </style>
 </head>
 
@@ -68,46 +85,54 @@
 
     <div class="container">
 
-        <a href="index.html">← Back</a>
+        <a href="index.html">← 返回</a>
 
         <h1>NUMI</h1>
 
         <p class="subtitle">
-            Mental health platform translating psychological exercises into interactive daily rituals.
+            将心理学练习转化为互动式日常仪式的数字心理健康平台。
         </p>
 
         <img src="numi-cover.jpg" class="hero-image">
 
-        <h2>Overview</h2>
+        <h2>项目概述</h2>
 
         <p>
-            NUMI is a digital mental health platform where users care for a symbolic rice grain representing emotional growth.
-            The project translates psychological principles into interactive daily rituals through responsive UI experiences.
+            NUMI 是一个数字心理健康平台，用户通过照料一颗象征情绪成长的“米粒”，
+            将心理疗愈过程转化为可视化的互动体验。
         </p>
-
-        <h2>Process</h2>
 
         <p>
-            The platform was designed in Figma, from wireframes to high-fidelity prototypes.
-            A modular UI system was developed to ensure consistency across web and mobile experiences.
+            项目尝试将心理学机制转译为日常行为仪式，
+            通过界面设计构建情绪反馈与成长感知。
         </p>
 
-          <p>
-            Throughout the creation, many adjustments were made to ensure best user experience. 
-            Visual language had to be unified and primed to convey the best environment for the user.
+        <h2>设计过程</h2>
+
+        <p>
+            项目基于 Figma 完成，从信息结构、线框图到高保真原型逐步构建。
+        </p>
+
+        <p>
+            在设计过程中，我们持续优化交互逻辑与视觉语言，
+            以确保系统在不同设备上的一致性与可用性。
+        </p>
+
+        <p>
+            同时对视觉风格进行了统一，使整体体验更具沉浸感与情绪引导性。
         </p>
 
         <img src="numi-ui.png" class="image">
 
-        <h2>Outcome</h2>
+        <h2>项目成果</h2>
 
         <p>
-            The final system improved workflow efficiency and reduced design iteration time by 30%.
+            最终设计显著提升了设计迭代效率，并减少约30%的重复修改时间。
         </p>
 
-        <video controls width="100%">
-    <source src="NUMIVIDEO.mp4" type="video/mp4">
-</video>
+        <video controls>
+            <source src="NUMIVIDEO.mp4" type="video/mp4">
+        </video>
 
     </div>
 
